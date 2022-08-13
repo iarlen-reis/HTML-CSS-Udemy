@@ -1,0 +1,23 @@
+.title {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.img-ratinhos {
+    width: 300px;
+    height: 200px;
+}
+
+#main-transformice {
+    text-align: center;
+}
+
+* {
+    background: rgb(173, 223, 206);
+}
+
+
+#TitleTransformice {
+    text-align: center;
+}

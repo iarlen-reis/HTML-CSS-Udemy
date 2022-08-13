@@ -1,0 +1,4 @@
+ul li:nth-child(2n + 2) {
+    background: red;
+}
+

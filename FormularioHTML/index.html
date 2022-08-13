@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="get"
+    target="_blank" autocomplete="off">
+        <p>O meu formuário</p>
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Seu email">
+        </p>
+
+        <p>
+            <label for="url">Url</label>
+            <input type="url" id="url" name="url" placeholder="Sua url">
+        </p>
+
+        <p>
+            <label for="search">search</label>
+            <input type="search" id="search" name="search" placeholder="termo">
+        </p>  
+
+        <p>
+            <label for="foto">Sua foto:</label>
+            <input type="file" id="foto" name="foto" accept=".png">
+        </p>
+
+        <p>
+            <label for="numero">número:</label>
+            <input type="number" id="numero" name="numero" placeholder="(XX) X XXXX-XXXX">
+        </p>
+
+        <p>
+            <label for="range">range:</label>
+            <input type="range" id="range" name="range" min="0" max="10" step="2">
+        </p>
+
+        <p>
+            <label for="front">Faço front-end?</label>
+            <input type="checkbox" id="front" name="front" value="sim">
+            
+            <label for="back">Faço back-end?</label>
+            <input type="checkbox" id="back" name="back" value="sim">
+            
+            <label for="fullstack">Sou full-stack</label>
+            <input type="checkbox" id="fullstack" name="fullstack" value="sim">
+        </p>
+        
+        <p>
+            linguaguem: <br>
+            <label for="python">Python</label>
+            <input type="radio" name="linguaguem" id="python" value="python">
+        
+            <label for="javaScript">JavaScript</label>
+            <input type="radio" name="linguaguem" id="javaScript" value="javascript">
+
+            <label for="php">PHP</label>
+            <input type="radio" name="linguaguem" id="php" value="php">
+        </p>
+
+        <p>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" value="2022-07-21">
+        </p>
+
+        <p>
+            <label for="datetime">Date Time:</label>
+            <input type="datetime-local" id="datetime" name="datetime" value="2022-07-21T20:00">
+        </p>
+
+        <p>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" value="20:00">
+        </p>
+
+        <p>
+            <label for="cor">Cor preferida:</label>
+            <input type="color" id="cor" name="cor" value="#FF0000">
+        </p>
+
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetar</button>
+        </p>
+
+        <p>
+            <label for="select">selecione alguma opção:</label>
+            <select name="select" id="select">
+                <option value="valor1">Valor 1</option>
+                <option value="valor2">Valor 2</option>
+
+            </select>
+        </p>
+
+        <p>
+            <label for="textarea">Text Area:</label>
+            <textarea name="textarea" id="textarea" cols="9" rows="3">
+
+            </textarea>
+        </p>
+
+
+    </form>
+</body>
+</html>

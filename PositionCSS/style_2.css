@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    background: cyan;
+}
+
+.heading {
+    position: fixed;
+    padding:  10px 20px;
+    background: crimson;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.heading header h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.para {
+    padding-top: 50px;
+}

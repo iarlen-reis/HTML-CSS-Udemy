@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 24px;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+.two-columns {
+    display: flex;
+}
+
+.two-columns .col {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 25px;
+
+    background: red;
+
+}

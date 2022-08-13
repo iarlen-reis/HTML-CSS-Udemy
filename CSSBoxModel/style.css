@@ -1,0 +1,21 @@
+.section-one {
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://thumbs.dreamstime.com/b/floresta-tropical-bonita-na-fuga-de-natureza-do-ka-do-ang-36703721.jpg);
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    border: 10px solid red;
+    padding: 15x 0 0 0;
+    width: 200px;
+    height: 50px;
+}
+
+.section-two {
+    background: cyan;
+    padding: 15px;
+    margin: 20px;
+    border: 5px solid black;
+    width: 200px;
+    height: 50px;
+}

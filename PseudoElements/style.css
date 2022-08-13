@@ -1,0 +1,9 @@
+ul li::before {
+    content: ' - ';
+    background: red;
+    color: white;
+}
+
+p::first-line {
+    background-color: crimson;
+}

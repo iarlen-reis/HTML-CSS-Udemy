@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    background: yellow;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 640px;
+}
+
+.flex-item {
+    width: 33.33%;
+    color: white;
+    background: red;
+}

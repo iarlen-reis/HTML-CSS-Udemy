@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+}
+
+table td, table th {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+table caption {
+    caption-side: top;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 5px 0px;
+}
+
+tfoot td, table th{
+    background-color: #ddd;
+}
+
+tfoot {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#div-table {
+    max-width: 100%;
+    overflow: auto;
+}

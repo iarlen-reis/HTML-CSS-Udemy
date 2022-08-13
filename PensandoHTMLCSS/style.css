@@ -1,0 +1,63 @@
+#div-head {
+    width: 1280px;
+    height: 70px;
+    background: red;
+}
+
+body {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/1ef84595-1fdb-4404-adac-15215ceeb3ae/56ea3d27-5c65-4401-bd14-15b0b210662a/BR-pt-20220711-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+#div-content {
+    width: 1280px;
+    height: 650px;
+}
+
+#div-center{
+    width: 1280px;
+    height: 500px;
+}
+
+#login {
+    float: left;
+    width: 600px;
+    height: 70px;
+    text-align: right;
+    
+}
+#netflix {
+    float: left;
+    width: 600px;
+    height: 70px;
+}
+
+#block-left {
+    float: left;
+    width: 420px;
+    height: 500px;
+}
+#block-center {
+    float: left;
+    width: 420px;
+    height: 500px;
+    
+}
+#block-right {
+    float: left;
+    width: 420px;
+    height: 500px;
+}
+#center-text {
+    float: left;
+    width: 420px;
+    height: 200px;
+}
+
+#center-text-2 {
+    float: left;
+    width: 420px;
+    height: 300px;
+    text-align: center;
+}
